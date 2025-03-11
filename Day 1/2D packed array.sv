@@ -9,8 +9,8 @@ module _2D_paked_array;
       b = 'b101101;
       c = 'h1011_ffff;
       
-      foreach(a[i])begin
-        foreach(a[i][j])begin
+      foreach(a[i])begin 
+        foreach(a[i][j])begin // or we can write only foreach(a[i,j]) begin without above line
           $display("value of a[%0d][%0d] = [%0d]",i,j,a[i][j]);
         end
       end
