@@ -1,4 +1,4 @@
-module queue_tb;
+module queue_unbounded;
   int queue[$];
   string queue1[$];
   initial begin
